@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mrinal Trivedi Web Developer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bodybg">
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li> <a href="/"> Home </a> </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li> <a href="/contact.html"> Contact Me </a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+          <img src="./ham.png" alt="" class="ham">
+          <img src="./cross.png" alt="" class="cross">
+        </div>
+        <div class="infoContainer">
+          <div class="devInfo">
+            <div class="hello">Hi I am</div>
+            <div class="name">Mrinal Trivedi</div>
+            <div class="about">Web Developer,</div>
+            <div class="moreabout">I am a developer and I love to Travel and I live in Indore Madhya Pradesh  </div>
+            <div class="buttons">
+              <button class="btn"> <a href="./cv.txt"> Download CV </a> </button>
+              <button class="btn"><a href="/contact.html"> Contact Me </a> </button>
+            </div>
+          </div>
+          <div class="devPic">
+            <img src="./IMG_20230901_165157-removebg-preview (1)-modified.png" alt="Mrinal Trivedi Pic">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mar">
+      <section id="about" class="section">
+        <div class="container-s">
+          <h2 class="h2c">About Me</h2>
+          <p>I'm a passionate web developer with expertise in HTML, CSS, JavaScript, React.js, and Node.js. I love building dynamic and user-friendly web applications that solve real-world problems.</p>
+          <button class="btn" onclick="printCV()">Print CV</button>
+      </div>
+    </section>
+  
+    <section id="skills" class="section">
+      <div class="container-s">
+        <h2 class="h2c">Skills</h2>
+        <div class="skills">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        </div>
+      </section>
+      
+    <section id="projects" class="section">
+      <div class="container-s">
+        <h2 class="h2c">Projects</h2>
+        <div class="project">
+          <h3>E-commerce Website</h3>
+          <p>Developed a fully functional e-commerce website using React.js and Node.js.</p>
+          <a href="#">View Demo</a> | <a href="#">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <h3>Task Management App</h3>
+          <p>Built a task management application with CRUD functionality using React.js and MongoDB.</p>
+          <a href="#">View Demo</a> | <a href="#">GitHub Repository</a>
+        </div>
+      </div>
+    </section>
+  
+    <section id="education" class="section">
+      <div class="container-s">
+        <h2 class="h2c">Education</h2>
+        <div class="education">
+          <ul>
+            <li>Master of Computer Applications (M.C.A) - Jabalpur Engineering College (2021)
+              <ul>
+                <li>CGPA: 7.7</li>
+              </ul>
+            </li>
+            <li>Bachelor of Computer Application (B.C.A) - Brain Institute of Technology (2018-2021)
+              <ul>
+                <li>CGPA: 7.9</li>
+              </ul>
+            </li>
+            <li>12th Grade - School for Excellence, Chhatarpur, Madhya Pradesh (2018)</li>
+          </ul>
+        </div>
+      </div>
+      </section>
+  
+    <section id="hobbies" class="section">
+      <div class="container-s">
+        <h2 class="h2c">Hobbies</h2>
+        <div class="hobbies">
+          <ul>
+            <li>Watching Anime</li>
+            <li>Playing Badminton</li>
+            <li>Reading Fiction</li>
+          </ul>
+        </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="section">
+      <div class="container-s">
+        <h2 class="h2c">Contact Me</h2>
+        <div class="contactme">
+          <p>Feel free to reach out to me via email or connect with me on LinkedIn or GitHub.</p>
+          <ul>
+            <li>Email: your.email@example.com</li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>    
+    <footer>
+      <div class="container-s">
+        <p>&copy; 2024 Your Name</p>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+      function printCV() {
+        window.print();
+      }
+      </script>  
+  </body>
+  </html>
